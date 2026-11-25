@@ -1,0 +1,64 @@
+{
+  "customers": [
+    "factory-a",
+    "factory-b"
+  ],
+  "sites": [
+    "north-mill",
+    "east-mill"
+  ],
+  "grants": [
+    {
+      "source": "power",
+      "scope": "aggregate",
+      "purpose": [
+        "internal",
+        "auditor"
+      ],
+      "existing_retention": true
+    },
+    {
+      "source": "shift-east",
+      "scope": "detail",
+      "purpose": [
+        "internal"
+      ],
+      "sites": [
+        "east-mill"
+      ]
+    }
+  ],
+  "offers": {
+    "standard": {
+      "units": 3,
+      "parallel": 1
+    },
+    "expanded": {
+      "units": 7,
+      "parallel": 2
+    }
+  },
+  "orders": [
+    {
+      "id": "report-1",
+      "buyer": "factory-a",
+      "plan": "standard",
+      "sources": [
+        "power"
+      ],
+      "purpose": "auditor",
+      "delegate": "repair-v"
+    },
+    {
+      "id": "report-2",
+      "buyer": "factory-a",
+      "plan": "expanded",
+      "sources": [
+        "power",
+        "shift-east"
+      ],
+      "purpose": "auditor",
+      "delegate": "repair-v"
+    }
+  ]
+}

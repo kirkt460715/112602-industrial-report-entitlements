@@ -1,0 +1,25 @@
+[
+  {
+    "action": "delivery",
+    "desk": "dispatch",
+    "ref": "report-1",
+    "delayed": true,
+    "evidence": {
+      "sent_at": 13,
+      "artifact": "package-7",
+      "recipient": "repair-v"
+    }
+  },
+  {
+    "action": "rights",
+    "desk": "supplier",
+    "ref": "shift-east",
+    "delayed": false,
+    "evidence": {
+      "purpose": [
+        "internal"
+      ],
+      "scope": "detail"
+    }
+  }
+]

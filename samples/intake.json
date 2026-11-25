@@ -1,0 +1,50 @@
+[
+  {
+    "sequence": 1,
+    "at": 7,
+    "source": "request",
+    "facts": {
+      "order": "report-1",
+      "state": "accepted",
+      "units": 2
+    }
+  },
+  {
+    "sequence": 2,
+    "at": 11,
+    "source": "client",
+    "facts": {
+      "plan": "expanded",
+      "effective": 10
+    }
+  },
+  {
+    "sequence": 3,
+    "at": 14,
+    "source": "supplier",
+    "facts": {
+      "source": "power",
+      "new_issuance": false,
+      "existing_retention": true
+    }
+  },
+  {
+    "sequence": 4,
+    "at": 17,
+    "source": "client",
+    "facts": {
+      "delegate": "repair-v",
+      "withdrawn": true
+    }
+  },
+  {
+    "sequence": 5,
+    "at": 21,
+    "source": "dispatch",
+    "facts": {
+      "order": "report-1",
+      "sent_at": 13,
+      "artifact": "package-7"
+    }
+  }
+]
