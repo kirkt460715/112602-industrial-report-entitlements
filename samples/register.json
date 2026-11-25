@@ -60,5 +60,26 @@
       "purpose": "auditor",
       "delegate": "repair-v"
     }
-  ]
+  ],
+  "artifacts": {
+    "package-7": {
+      "site": "north-mill",
+      "month": "sim-04",
+      "source": "power",
+      "grain": "monthly",
+      "values": {
+        "energy_units": 158
+      }
+    },
+    "draft-east": {
+      "site": "east-mill",
+      "month": "sim-04",
+      "source": "shift-east",
+      "grain": "shift",
+      "values": {
+        "shift_1_units": 35,
+        "shift_2_units": 47
+      }
+    }
+  }
 }
